@@ -1,27 +1,19 @@
-alert("Bem-vindo!"); 
+/*Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no
+final apresente o total do somatório da fatorial de cada valor lido.
+*/
+document.body.innerHTML += `Bem-vindo! <br>`; 
 
-// Array para armazenar os valores lidos (simulando a leitura dos valores)
-const valores = [5, 3, 7, 2, 4, 6, 8, 10, 9, 1, 5, 3, 7, 2, 4]; // Exemplo de valores
-
-// Inicializa o somatório total
-let totalSomatorio = 0;
-
-// Índice para percorrer os valores
-let i = 0;
-
-// Calcula o somatório dos fatoriais usando um loop while
+let i = 0, somatorio = 0;
 while (i < 15) {
-    const valor = valores[i]; // Lê o valor do array
-    let fatorialValor = 1;
-
-    // Calcula o fatorial do valor
-    for (let j = 2; j <= valor; j++) {
-        fatorialValor *= j;
-    }
-
-    totalSomatorio += fatorialValor; // Adiciona ao somatório total
-    i++;
+	let valor = parseInt(prompt('Informe um valor;'));
+	let fatorial = 1
+while (valor > 0){
+	fatorial = fatorial * valor
+	valor --;
+}
+somatorio = somatorio + fatorial
+i++
 }
 
 // Exibe o resultado
-document.body.innerHTML += `<p> Total do somatório dos fatoriais: ${totalSomatorio} </p>`;
+document.body.innerHTML += `Total do somatório dos fatoriais: ${somatorio} <br>`;
