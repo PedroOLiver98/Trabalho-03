@@ -1,4 +1,20 @@
-alert("Bem-vindo!"); 
+/*Elaborar um programa que possibilite calcular a área total de uma residência
+(sala, cozinha, banheiro, quartos, área de serviço, quintal, garagem, etc.). O
+programa deve solicitar a entrada do nome, a largura e o comprimento de um
+determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e
+também uma mensagem solicitando ao usuário a confirmação de continuar
+calculando novos cômodos. Caso o usuário responda "Cancelar", o programa
+deve apresentar o valor total acumulado da área residencial.
+*/
+/*Elaborar um programa que possibilite calcular a área total de uma residência
+(sala, cozinha, banheiro, quartos, área de serviço, quintal, garagem, etc.). O
+programa deve solicitar a entrada do nome, a largura e o comprimento de um
+determinado cômodo. Em seguida, deve apresentar a área do cômodo lido e
+também uma mensagem solicitando ao usuário a confirmação de continuar
+calculando novos cômodos. Caso o usuário responda "Cancelar", o programa
+deve apresentar o valor total acumulado da área residencial.
+*/
+document.body.innerHTML += `Bem-vindo!" <br>`; 
 
 let totalArea = 0;
 let resposta = '';

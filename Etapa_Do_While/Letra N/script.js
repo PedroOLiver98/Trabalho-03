@@ -1,4 +1,10 @@
-alert("Bem-vindo!"); 
+/* Elaborar um programa que efetue a leitura sucessiva de valores numéricos e
+apresente no final o total do somatório, a média e o total de valores lidos. O
+programa deve fazer as leituras dos valores enquanto o usuário estiver
+fornecendo valores positivos. Ou seja, o programa deve parar quando o usuário
+fornecer um valor negativo (menor que zero).
+*/
+document.body.innerHTML += `Bem-vindo! <br>`; 
 
 let soma = 0;
 let quantidade = 0;

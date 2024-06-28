@@ -1,4 +1,7 @@
-alert("Bem-vindo!"); 
+/*Elaborar um programa que apresente como resultado o valor da fatorial dos
+valores ímpares situados na faixa numérica de 1 a 10.
+*/
+document.body.innerHTML += `Bem-vindo! <br>`; 
 
 let resultadoFatorial = 1;
 

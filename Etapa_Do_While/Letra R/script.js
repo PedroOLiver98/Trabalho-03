@@ -1,4 +1,9 @@
-alert("Bem-vindo!"); 
+/*Elaborar um programa que efetue a leitura de valores positivos inteiros, até que
+um valor negativo seja informado. Ao final devem ser apresentados o maior e o
+menor valores informados pelo usuário.
+*/
+
+document.body.innerHTML += `Bem-Vindo!<br>`; 
 
 let maior = Number.MIN_SAFE_INTEGER; // Inicializa com o menor valor possível para comparação
 let menor = Number.MAX_SAFE_INTEGER; // Inicializa com o maior valor possível para comparação

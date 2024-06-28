@@ -1,4 +1,9 @@
-alert("Bem-vindo!"); 
+/*
+Elaborar um programa que efetue a leitura de 10 valores numéricos e apresente
+no final o total do somatório e a média dos valores lidos.
+*/
+
+document.body.innerHTML += `Bem-vindo! <br>`; 
 // Array para armazenar os valores lidos (simulando a leitura dos valores)
 let valores = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // Inicializando com 10 elementos zerados
 
@@ -23,6 +28,6 @@ do {
 media = somatorio / 10; // Calculando a média
 
 // Exibindo os resultados
-document.body.innerHTML += `<p> \nValores digitados: ${valores.join(', ')} </p>`;
-document.body.innerHTML += `<p> Total do somatório: ${somatorio} </p>`;
-document.body.innerHTML += `<p> Média dos valores: ${media} </p>`;
+document.body.innerHTML += `\nValores digitados: ${valores.join(', ')} <br>`;
+document.body.innerHTML += `Total do somatório: ${somatorio} <br>`;
+document.body.innerHTML += `Média dos valores: ${media} <br>`;

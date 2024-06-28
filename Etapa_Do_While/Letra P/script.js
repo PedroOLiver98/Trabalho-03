@@ -1,4 +1,8 @@
-alert("Bem-vindo!"); 
+/*Elaborar um programa que apresente os resultados da soma e da média
+aritmética dos valores pares situados na faixa numérica de 50 a 70.
+*/
+
+document.body.innerHTML += `Bem-vindo! <br>`; 
 
 let soma = 0;
 let quantidade = 0;
